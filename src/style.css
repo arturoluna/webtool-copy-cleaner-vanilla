@@ -22,8 +22,3 @@ button {
   width: 100%;
 }
 
-#htmlOutput {
-  border: 1px solid #ccc;
-  padding: 10px;  
-  min-height: 100px;
-} 

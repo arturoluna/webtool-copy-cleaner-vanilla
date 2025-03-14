@@ -12,26 +12,25 @@
     <main>
       <section id="copySection">
         <article>
-          <h2>Source</h2>
-          <label for="copyText">Paste your text here:</label>
-          <textarea name="copy-text" id="copyText" placeholder="Paste your text here..."></textarea>
+          <label for="copyInput">Paste your text here:</label>
+          <textarea name="copyInput" id="copyInput" placeholder="Paste your text here..."></textarea>
         </article>
-    
+ 
         <article>
-          <h2>HTML</h2>
           <label for="htmlOutput">HTML output:</label>
-          <div id="htmlOutput"></div>
+            <label for="htmlTypeEmail">Email<input type="radio" name="htmlType" id="htmlTypeEmail"></label>
+            <label for="htmlTypeWeb">Web<input type="radio" name="htmlType" id="htmlTypeWeb"></label>
+          <textarea name="htmlOutput" id="htmlOutput" placeholder="No Copy Converted..."></textarea>
         </article>
     
         <article>
-          <h2>Plain Text</h2>
           <label for="plainOutput">Plain text output:</label>
-          <textarea name="copy-text" id="plainOutput" readonly></textarea>
+          <textarea name="plainOutput" id="plainOutput" placeholder="No Copy Converted..." readonly></textarea>
         </article>
        </section>
        <section id="controls">
         <button id="cleanText">Clean Text</button>
-        <button id="copy</section>Html">Copy HTML</button>
+        <button id="copyHtml">Copy HTML</button>
         <button id="copyPlain">Copy Plain Text</button>
        </section>
     </main>
@@ -39,4 +38,3 @@
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
-</section>
